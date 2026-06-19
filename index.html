@@ -1,0 +1,9 @@
+<script>
+function vibratePhone() {
+  if (navigator.vibrate) {
+    navigator.vibrate([500, 200, 500, 200, 1000]);
+  }
+}
+</script>
+
+<button onclick="vibratePhone()">CLICK ME</button>
